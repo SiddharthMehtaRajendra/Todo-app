@@ -28,11 +28,7 @@ Once the above have been installed, perform the following commands in the exact 
 
 7. Please refer the [REST API Documentation](Documentation/REST_API.json) for better understanding of the application.
 
-The REST API can be viewed in detail on a cloud hosted URL at:
+The REST API can be viewed in detail on a cloud hosted URL at: [Postman REST API](https://documenter.getpostman.com/view/9486447/TVes7mpo)
 
-            [Postman REST API](https://documenter.getpostman.com/view/9486447/TVes7mpo)
-
-For Details pertaining to this Application, feel free to contact me at:
-
-            - [Siddharth Mehta](mailto:mehtasiddharth@hotmail.co.uk?subject=todo-app)
+For Details pertaining to this Application, feel free to contact me at: [Siddharth Mehta](mailto:mehtasiddharth@hotmail.co.uk?subject=todo-app)
 
