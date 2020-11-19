@@ -26,7 +26,7 @@ Once the above have been installed, perform the following commands in the exact 
 6. Run the application on the Chrome Browser (preferred due to runtime issues in other browsers) by typing in the following URL:
             localhost:8080/
 
-7. The REST API Documentation has been provided separately below. Also available at [](Documentation/REST_API.json)
+7. The REST API Documentation has been provided separately below. Also available at [Documentation](Documentation/REST_API.json)
 
 The REST API can be viewed in detail on a cloud hosted URL at:
 
