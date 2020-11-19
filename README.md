@@ -30,9 +30,9 @@ Once the above have been installed, perform the following commands in the exact 
 
 The REST API can be viewed in detail on a cloud hosted URL at:
 
-            https://documenter.getpostman.com/view/9486447/TVes7mpo
+            [Postman REST API](https://documenter.getpostman.com/view/9486447/TVes7mpo)
 
 For Details pertaining to this Application, feel free to contact me at:
 
-            - mehtasiddharth@hotmail.co.uk
+            - [Siddharth Mehta](mailto:mehtasiddharth@hotmail.co.uk?subject=todo-app)
 
