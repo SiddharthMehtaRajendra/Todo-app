@@ -26,5 +26,13 @@ Once the above have been installed, perform the following commands in the exact 
 6. Run the application on the Chrome Browser (preferred due to runtime issues in other browsers) by typing in the following URL:
             localhost:8080/
 
-7. The REST API Documentation has been provided separately below.
+7. The REST API Documentation has been provided separately below. Also available at [Documentation](REST_API)
+
+The REST API can be viewed in detail on a cloud hosted URL at:
+
+            https://documenter.getpostman.com/view/9486447/TVes7mpo
+
+For Details pertaining to this Application, feel free to contact me at:
+
+            - mehtasiddharth@hotmail.co.uk
 
