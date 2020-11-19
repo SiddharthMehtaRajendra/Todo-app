@@ -1,0 +1,617 @@
+{
+	"info": {
+		"_postman_id": "eceb565a-2696-4288-a02e-6e7abc7a888e",
+		"name": "todo-app",
+		"description": "TODO App built Using the PHP Slim Framework.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/create/{name}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"create",
+						"{name}"
+					]
+				},
+				"description": "Create a TODO with a name of your choice"
+			},
+			"response": [
+				{
+					"name": "Create Todo",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/retrieve/{name}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"retrieve",
+								"{name}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:01:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 155899,\n    \"name\": \"todo7\",\n    \"task\": \"\",\n    \"is_complete\": \"\",\n    \"owner\": \"\"\n}"
+				},
+				{
+					"name": "Create Todo",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:02:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "Welcome to TODO App!"
+				},
+				{
+					"name": "Create Todo",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/create/{name}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"create",
+								"{name}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:04:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 164392,\n    \"name\": \"{name}\",\n    \"task\": \"\",\n    \"is_complete\": \"\",\n    \"owner\": \"\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Open Home Page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				},
+				"description": "Open The TODO Application Home Page"
+			},
+			"response": [
+				{
+					"name": "Open Home Page",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:04:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "Welcome to TODO App!"
+				}
+			]
+		},
+		{
+			"name": "Retrieve Specific TODO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/retrieve/{name}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"retrieve",
+						"{name}"
+					]
+				},
+				"description": "Retrieve a specific TODO"
+			},
+			"response": [
+				{
+					"name": "Retrieve Specific TODO",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/retrieve/{name}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"retrieve",
+								"{name}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:05:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 164392,\n    \"name\": \"{name}\",\n    \"task\": \"\",\n    \"is_complete\": \"\",\n    \"owner\": \"\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve All TODOs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/retrieve-todos",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"retrieve-todos"
+					]
+				},
+				"description": "Retrieve All TODOs"
+			},
+			"response": [
+				{
+					"name": "Retrieve All TODOs",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/retrieve-todos",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"retrieve-todos"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:06:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 136947,\n        \"name\": \"todo1\",\n        \"task\": \"\",\n        \"is_complete\": \"\",\n        \"owner\": \"\"\n    },\n    {\n        \"id\": 186722,\n        \"name\": \"todo2\",\n        \"task\": \"\",\n        \"is_complete\": \"\",\n        \"owner\": \"\"\n    },\n    {\n        \"id\": 155899,\n        \"name\": \"todo7\",\n        \"task\": \"\",\n        \"is_complete\": \"\",\n        \"owner\": \"\"\n    },\n    {\n        \"id\": 164392,\n        \"name\": \"{name}\",\n        \"task\": \"\",\n        \"is_complete\": \"\",\n        \"owner\": \"\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Delete a TODO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Delete an existing TODO"
+			},
+			"response": [
+				{
+					"name": "Delete a TODO",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/delete-todo/{name}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"delete-todo",
+								"{name}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:07:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "Deleted: {name}"
+				}
+			]
+		},
+		{
+			"name": "Add Item to TODO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/add-item/{todoname}/{itemname}/{itemvalue}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"add-item",
+						"{todoname}",
+						"{itemname}",
+						"{itemvalue}"
+					]
+				},
+				"description": "Add a new item to a TODO of your choice"
+			},
+			"response": [
+				{
+					"name": "Add Item to TODO",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/add-item/{todoname}/{itemname}/{itemvalue}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"add-item",
+								"{todoname}",
+								"{itemname}",
+								"{itemvalue}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:08:13 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "Could Not Find Todo!"
+				}
+			]
+		},
+		{
+			"name": "Update Item in TODO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/update-item/{todoname}/{itemname}/{newname}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"update-item",
+						"{todoname}",
+						"{itemname}",
+						"{newname}"
+					]
+				},
+				"description": "Update a particular Item in a TODO of your choice\n"
+			},
+			"response": [
+				{
+					"name": "Update Item in TODO",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/update-item/{todoname}/{itemname}/{newname}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"update-item",
+								"{todoname}",
+								"{itemname}",
+								"{newname}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:09:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "Could Not Find Todo!"
+				}
+			]
+		},
+		{
+			"name": "Update TODO Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Update the name of a TODO"
+			},
+			"response": [
+				{
+					"name": "Update TODO Name",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/update-name/{oldname}/{newname}",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"update-name",
+								"{oldname}",
+								"{newname}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 19 Nov 2020 07:10:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "Todo Name Updated: from -> {oldname} to -> {newname}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

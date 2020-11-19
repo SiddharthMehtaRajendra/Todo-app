@@ -1,8 +1,11 @@
 To run this project in your local environment, please ensure you have the following installed beforehand:
 
 Language - PHP >= 7.3
+
 Package Manager - Composer ​https://getcomposer.org/
+
 Framework - Slim Micro Framework ​https://www.slimframework.com/
+
 If you are on OSX, the easiest way to install php and composer is using Homebrew.
 
 Once the above have been installed, perform the following commands in the exact order given to succesfully reproduce the application:
